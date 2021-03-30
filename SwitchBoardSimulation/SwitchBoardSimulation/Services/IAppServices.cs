@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using SwitchBoardSimulation.Models;
+
+namespace SwitchBoardSimulation.Services
+{
+    interface IAppServices
+    {        
+        public void CreateSwitchboard();
+        public void StartSwitchboard();
+        public void AddAppliance(int applianceCount, ApplianceType type);
+        public void DisplaySwitchboardState();
+
+    }
+}
